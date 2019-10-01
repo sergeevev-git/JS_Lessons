@@ -1,5 +1,5 @@
 //стандарты ES6
-
+//Интерполяция
 let name = 'Ivan',
     age = 30,
     mail = 'aaa@mail.ru';
@@ -8,6 +8,7 @@ let name = 'Ivan',
 
 document.write(`User ${name} age ${age} mail: ${mail}`); //а это ES6 - Интерполяция
 
+//let и const
 //при использовании let и const в цикле переменные создаются при каждой итерации.
 function makeArray() {
     var items = [];
