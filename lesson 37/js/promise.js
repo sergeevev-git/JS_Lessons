@@ -1,6 +1,6 @@
 let drink = 1;
 
-function shoot(arrow) {
+function shoot() {
     console.log('Вы сделали выстрел');
     let promise = new Promise(function(resolve, reject) {
         setTimeout(function() {
@@ -27,7 +27,7 @@ function loose() {
     console.log('вы проиграли');
 }
 
-shoot({})
-    .then(mark => console.log('вы попали'))
+shoot()
+    .then(() => console.log('вы попали'))
     .then(win)
     .catch(loose)
