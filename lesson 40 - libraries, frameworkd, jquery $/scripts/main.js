@@ -33,7 +33,6 @@ $(document).ready(function() {
 
 
 // Angular
-
 1. Node.js -> npm
 2. TypeScript
 3. WebPack
@@ -41,14 +40,12 @@ $(document).ready(function() {
 5. Angular
 
 // React
-
 1. Node.js -> npm
 2. Babel
 3. JSX
 4. React
 
 // Vue
-
 1. Node.js -> npm
 2. Babel
 3. WebPack
